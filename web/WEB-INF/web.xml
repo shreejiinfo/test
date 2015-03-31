@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>insertServlet</servlet-name>
+        <servlet-class>com.my.servlet.insertServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>logServlet</servlet-name>
+        <servlet-class>com.my.servlet.logServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>session</servlet-name>
+        <servlet-class>session</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>logoutServlet</servlet-name>
+        <servlet-class>com.my.servlet.logoutServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EmailSendingServlet</servlet-name>
+        <servlet-class>com.my.servlet.EmailSendingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>insertServlet</servlet-name>
+        <url-pattern>/insertServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>index</servlet-name>
+        <servlet-class>index.index</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>loginDeo</servlet-name>
+        <servlet-class>Conection.loginDeo</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>index</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>loginDeo</servlet-name>
+        <url-pattern>/loginDeo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>logServlet</servlet-name>
+        <url-pattern>/logServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>session</servlet-name>
+        <url-pattern>/session</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>logoutServlet</servlet-name>
+        <url-pattern>/logoutServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EmailSendingServlet</servlet-name>
+        <url-pattern>/EmailSendingServlet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+
+    /servlet&gt;
+    
+</web-app>

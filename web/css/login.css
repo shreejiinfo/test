@@ -1,0 +1,170 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 23, 2015, 1:32:38 PM
+    Author     : Administrator
+*/
+/* errrrrrroooooor*/
+input[type=text].form-error,
+  input[type=password].form-error{ border: 1px solid #dd4b39;
+}
+ .errormsg {
+  margin: .5em 0 0;
+  display: block;
+  color: #dd4b39;
+  line-height: 17px;
+  }
+
+/*end errrroooor*/
+#header {
+    background-color:#0063A6;
+    margin: -7.3px -7.2px;
+   
+  }
+  
+  #header-1{
+    background-color:#0063A6;
+    margin: -7.3px -7.2px;
+    
+      
+  }
+.right-form {
+
+   color: dodgerblue;
+//margin: 10px 15px; 
+}
+.link-login{
+    
+    float: right;
+    margin-top: 18px;
+    color: white;
+    margin-right: 22px;
+
+}
+.link-login:hover{
+    color: orange;
+    
+}
+
+.acsetting{
+   float: right;
+  margin-top: 24.5px;
+    color: white;
+    margin-right: 120px;
+    position: relative;
+}
+
+.acsetting:hover{
+    color: orange;
+}
+
+.logout{
+    float: right;
+    margin-top: -33px;
+    color: white;
+    margin-right: 68px;
+    position: relative;
+  
+}
+.logout:hover{
+    color: orange;}
+.link-logout{
+    float:right;
+    margin-top: -53px;
+    color: wheat;
+    margin-right: 110px;
+    position: relative;
+  }
+ 
+.right-form{
+    
+        float:left;
+	margin:35px 30px;
+	width:400px;
+        background-size: auto;
+        //background: #4D4949;
+}
+.right-form{
+	float:right;       
+}
+
+.form{
+	padding-bottom: 0.5px;
+        size: auto;
+}
+
+.right-form li{
+	display: block;
+	color:#4D4949;
+	border:1px solid #EBEBEB;
+	border-radius: 0.3em;
+	-webkit-border-radius:0.6em;
+  	-moz-border-radius:0.6em;
+ 	 -o-border-radius:0.3em;
+ 	 margin-bottom: 10px;
+}
+.right-form input[type=text], input[type=password] {
+	font-family: 'Open Sans', sans-serif;
+	width:max-content;
+	padding: 0.7em 1em 0.7em 1em;
+	color:#000;
+	font-size: 15px;
+	border:none;
+  	outline:none;
+
+}
+.right-form input[type=submit]{
+  float: left;
+  padding:8px 19px;
+  border-radius:0.3em;
+  border:none;
+  outline:none;
+  font-weight:bold;
+  font-size:15px;
+  //transition: all 0.5s ease-out;
+  margin: 2em 0em;
+  cursor: pointer;
+}
+
+ input[type=submit]:hover {
+ background:#2E2D2D;
+ color:#fff;
+
+}
+
+label{
+    
+    float: left;
+  padding:8px 19px;
+  border-radius:0.3em;
+  border:none;
+  outline:none;
+  font-weight:bold;
+  font-size:15px;
+  //transition: all 0.5s ease-out;
+  margin: 2em 0em;
+  cursor: pointer;
+  
+}
+
+.left{
+    
+    float: left;
+    margin: 30px 5px;
+}
+ .atsecuremail{
+   display: inline-block;
+   width: 100%;
+   position: absolute;
+   margin: 9.5px 3.9em;
+   color:  #0063A6;
+   font-size: 14px;
+   direction: ltr;
+ 
+ } 
+ 
+     
+ 

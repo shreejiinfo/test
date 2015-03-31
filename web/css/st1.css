@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 3, 2015, 12:35:24 PM
+    Author     : Administrator
+*/
+
+  /* SEARCH BOX*/
+
+
+ 
+  .span_1_of_4 input[type=search]{
+      width: 30em;
+      padding:5px 9px;
+      cursor: pointer;  
+  }
+  
+  /*SEARCH BUTTON*/
+   .span_1_of_4 input[type=submit]{
+       padding:8px 19px;  
+       border:none;
+       outline:none;
+       cursor: pointer;
+  }
+ 
+  
+  /*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 20px;
+        
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	//margin: 1% 0 1% 1.6%;
+        //border:solid;
+       
+}
+
+.col:first-child { margin-left: 0%; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF FOUR  */
+
+.span_1_of_4 {
+	width: 100%;
+        
+}
+
+.mail{
+    height:500px ;
+    width:1200px;
+   border:none;
+   float: left;
+   
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}
+/*left panal */
+#leftpanal{
+     float:left;
+     background-color: #0063A6; 
+     border: none;
+     width:120PX; 
+     margin-top: 1PX; 
+     height:500px;
+     text-align: center;
+}
+/* hyper link remove css*/
+a{text-decoration: none; color: #fff;}
+/*create lable css*/
+#createlable{color: red;}
+
+/*compose btn css*/
+.composebtn{
+ color: #fff;
+ width:9em ;
+ font-weight:bold;
+ padding:8px 12px;
+ margin-left: 0px; 
+ border:none;
+ outline:none;
+ background: #c8232c;
+
+}
+ /* compose button css*/
+
+ 
+ /* CSS FOR INBOX.JSP PAGE */
+ .inbox-mail{
+     background-color: #999;
+     padding: 0px 2px;
+     margin-top: -12px;
+     height: 35px;
+     color: white;
+ }

@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 25, 2015, 6:31:28 PM
+    Author     : Administrator
+*/
+#header {
+    background-color: #999; 
+    text-align:left;
+    text-shadow: calc;
+   padding:0.2%;	 
+   width: 100%;
+   margin: 1.3% -0.1%;
+}
+body{
+   // background:  #999;
+}
+.combody textarea[name=to]{
+    width: 100%
+    
+}
+.combody input[type=email]{
+    
+   width: 100%;
+}
+.combody input[type=text]{
+    width: 100%;
+    
+}
+.combody li{
+  display: block;
+  color:#4D4949;    
+}
+.combody label{
+   float: left;
+   margin: 0.2% -5.7%;
+  
+   }
+#footer {
+    background-color: #999; 
+    text-align:left;
+    text-shadow: calc;
+   padding:0.2%;	 
+   width: 100%;
+   margin: 1.3% -0.1%;
+}
